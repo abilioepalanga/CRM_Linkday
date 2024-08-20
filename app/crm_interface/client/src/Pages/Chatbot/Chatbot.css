@@ -1,0 +1,75 @@
+/*
+export const colorsRGBString = {
+	white: "rgb(255, 255, 255)",
+	alabaster: "rgb(249, 249, 249)",
+	linkWater: "rgb(222, 226, 247)",
+	persianBlue: "rgb(29, 55, 196)",
+	stratos: "rgb(0, 8, 49)",
+};
+ */
+
+.chatbot-container {
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	font-family: "Arial", sans-serif;
+	margin: 8rem auto;
+}
+
+.chatbot-messages {
+	padding: 20px;
+	background-color: #f9f9f9;
+	height: 300px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.chatbot-message {
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 4px;
+	max-width: 80%;
+}
+
+.chatbot-message.bot {
+	background-color: rgb(237, 222, 247);
+	align-self: flex-start;
+}
+
+.chatbot-message.user {
+	background-color: rgb(222, 226, 247);
+	align-self: flex-end;
+	text-align: right;
+	/* add a pointy corner to the box look like a sent message */
+}
+
+.chatbot-input {
+	display: flex;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.chatbot-input input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.chatbot-input button {
+	padding: 10px 20px;
+	border: none;
+	background-color: rgb(29, 55, 196);
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.chatbot-input button:hover {
+	background-color: rgb(0, 8, 49);
+}

@@ -1,0 +1,117 @@
+.shadow-all {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.plus-button {
+	position: relative;
+	height: 40px;
+}
+
+.big-thin-plus {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	font-weight: 100;
+}
+.table-title-text {
+	color: #f9f9f9;
+	font-family: Roboto;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.bg-light-blue {
+	background-color: #eef1ff;
+}
+
+.font-color-blue {
+	color: #001caf;
+}
+
+.btn-pill {
+	border-radius: 50px;
+}
+
+.bg-card {
+	background-color: #edf0fe;
+}
+
+.card-shadow {
+	box-shadow: 0px 6px 58px 40px #c4cbd61a;
+}
+
+.bg-done {
+	background-color: #92f5c4;
+}
+.text-done {
+	color: #00b87c;
+	font-weight: bold;
+}
+.col-1-5 {
+	flex: 0 0 12.5%; /* 1.5/12 = 12.5% */
+	max-width: 12.5%;
+}
+
+.bg-to-do {
+	background-color: #7d859224;
+}
+.text-to-do {
+	color: #7d8592;
+	font-weight: bold;
+}
+
+.bg-in-development {
+	background-color: #ffc23fcc;
+}
+
+.text-in-development {
+	color: #ff8c00;
+	font-weight: bold;
+}
+
+.bg-stopped {
+	background-color: #ff4f4f96;
+}
+
+.text-stopped {
+	color: #ff3f3f;
+	font-weight: bold;
+}
+
+.bg-in-review {
+	background-color: #c418e61c;
+}
+
+.text-in-review {
+	color: #c418e6;
+	font-weight: bold;
+}
+
+.active-button {
+	background-color: #007bff !important;
+	color: white !important;
+}
+
+.bg-critical {
+	background-color: #f34019;
+}
+
+.bg-urgent {
+	background: #ffb71e;
+}
+
+.bg-low {
+	background-color: #2cb02c;
+}
+
+.hovered-row:hover {
+	background-color: #e5e5e5; /* Change to desired darker color */
+	cursor: pointer; /* Change cursor style to pointer */
+}
+
+.create-project-button {
+	background-color: #1d37c4;
+	color: white;
+}

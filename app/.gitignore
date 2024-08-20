@@ -1,0 +1,10 @@
+../.idea/
+/crm_interface/crm_api/__pycache__/
+/crm_interface/crm_api/migrations/__pycache__/
+/crm_interface/crm_interface/__pycache__/
+/crm_interface/db.sqlite3
+/crm_interface/client/.idea/
+/.idea/
+*/.idea/
+*/__pycache__/
+/crm_interface/crm_api/management/commands/__pycache__/

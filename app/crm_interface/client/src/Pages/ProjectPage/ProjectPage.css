@@ -1,0 +1,84 @@
+.small-card-title {
+	background-color: #1d37c4;
+	color: #ffffff;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.font-color-blue {
+	color: #001caf;
+}
+.card-shadow {
+	box-shadow: 0px 4px 10px 0px #0008311a;
+}
+
+.card-border {
+	border-radius: 10px;
+}
+
+.radio-label {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 17.58px;
+	text-align: left;
+}
+.radio-option {
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 16.41px;
+	text-align: left;
+}
+
+.task-text {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 17.58px;
+	text-align: left;
+}
+
+.first-row {
+	max-height: 450px;
+}
+.first-row-2 {
+	max-height: 350px;
+}
+.overflow-y-auto {
+	overflow-y: auto;
+}
+
+.team-member {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 8px;
+	text-align: left;
+}
+
+.col-8-5 {
+	flex: 0 0 67.5%;
+	max-width: 67.5%;
+}
+
+.col-11-5 {
+	flex: 0 0 92.5%;
+	max-width: 92.5%;
+}
+
+.rounded-left {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.rounded-right {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.timeline-text {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18.75px;
+	color: #1d37c4;
+	text-align: right;
+}

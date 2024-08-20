@@ -1,0 +1,13 @@
+@echo off
+
+echo Flushing the database...
+python manage.py flush --noinput
+
+echo Running migrations...
+python manage.py migrate
+
+echo Loading fixtures...
+python manage.py load_fixtures fixtures/seed
+
+echo Starting the server...
+python manage.py runserver

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+echo -e "Running linters and formatters...\n"
+
+cd app/crm_interface/client
+
+echo -e "Running ESlint..."
+npx eslint .
+
+if [ $? = 0 ]; then
+    echo -e "ESlint OK.\n"
+    echo -e "Running Prettier..."
+    npx prettier --check .
+    if [ $? = 0 ]; then
+        echo -e "Prettier OK.\n"
+	    echo -e "All checks passed. Committing...\n"
+    else
+        echo -e "\nPrettier failed while commiting - running the format script to fix it.\n"
+        npx prettier --write .
+    fi
+else
+    echo -e "ESLint failed while commiting.\n"
+        echo -e "Aborting..."
+    exit 1
+fi

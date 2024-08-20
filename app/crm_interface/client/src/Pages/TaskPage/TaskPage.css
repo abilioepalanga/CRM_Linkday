@@ -1,0 +1,79 @@
+.shadow-all {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.plus-button {
+	position: relative;
+	height: 40px;
+}
+
+.big-thin-plus {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.bg-light-blue {
+	background-color: #eef1ff;
+}
+
+.font-color-blue {
+	color: #001caf;
+}
+
+.btn-pill {
+	border-radius: 50px;
+}
+
+.bg-card {
+	background-color: #edf0fe;
+}
+
+.card-shadow {
+	box-shadow: 0px 6px 58px 40px #c4cbd61a;
+}
+
+.bg-done {
+	background-color: #d6f5e8;
+}
+.text-done {
+	color: #00b87c;
+	font-weight: bold;
+}
+.col-1-5 {
+	flex: 0 0 12.5%; /* 1.5/12 = 12.5% */
+	max-width: 12.5%;
+}
+
+.bg-to-do {
+	background-color: #7d859224;
+}
+.text-to-do {
+	color: #7d8592;
+	font-weight: bold;
+}
+
+.bg-in-progress {
+	background-color: #3f8cff1f;
+}
+
+.text-in-progress {
+	color: #3f8cff;
+	font-weight: bold;
+}
+
+.bg-in-review {
+	background-color: #c418e61c;
+}
+
+.text-in-review {
+	color: #c418e6;
+	font-weight: bold;
+}
+
+.active-button {
+	background-color: #007bff !important;
+	color: white !important;
+}

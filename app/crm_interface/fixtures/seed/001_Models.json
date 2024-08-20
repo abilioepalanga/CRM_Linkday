@@ -1,0 +1,509 @@
+[{
+        "model": "crm_api.user",
+        "pk": 1,
+        "fields": {
+          "email": "joao@mail.com",
+          "name": "user1",
+          "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+          "date_joined": "2024-03-14 02:56:53.375372"
+        }
+    },
+   {
+        "model": "crm_api.user",
+        "pk": 2,
+        "fields": {
+          "email": "user1@mail.com",
+          "name": "user1",
+          "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+          "date_joined": "2024-03-14 02:56:53.375372"
+        }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 3,
+      "fields": {
+        "email": "user2@mail.com",
+        "name": "user2",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 4,
+      "fields": {
+        "email": "nataliafernandes@mail.com",
+        "name": "Natália Fernandes",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 5,
+      "fields": {
+        "email": "joseesteves@mail.com",
+        "name": "José Esteves",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 6,
+      "fields": {
+        "email": "miguelempata@mail.com",
+        "name": "Miguel Empata",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 7,
+      "fields": {
+        "email": "miguelrelvas@mail.com",
+        "name": "Miguel Relvas",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+    {
+      "model": "crm_api.user",
+      "pk": 8,
+      "fields": {
+        "email": "teresabaldaque@mail.com",
+        "name": "Teresa Baldaque",
+        "password": "pbkdf2_sha256$720000$OVC07G2xOL5DbWwNHak1FX$5w00HGFzvYDbcQlhhqshLOfR+Hfpmxx1tAlqHQIBHDU=",
+        "date_joined": "2024-03-14 02:56:53.375372"
+      }
+    },
+  {
+    "model": "crm_api.email",
+    "pk": 1,
+    "fields": {
+      "subject": "Hello",
+      "message": "Hello, how are you?",
+      "sender": "mailtest1@mail.com",
+      "receiver": 1,
+      "date_sent": "2021-07-01T00:00:00Z"
+    }
+    },
+    {
+      "model": "crm_api.email",
+      "pk": 2,
+      "fields": {
+        "subject": "Re:Hello",
+        "message": "Thanks! I am fine. How about",
+        "sender": "mailtest2@mail.com",
+        "receiver": 1,
+        "date_sent": "2021-07-01T00:00:00Z"
+      }
+    },
+    {
+      "model": "crm_api.email",
+      "pk": 3,
+      "fields": {
+        "subject": "Re:Hello",
+        "message": "I am also fine. Thanks for asking",
+        "sender": "mailtest3@mail.com",
+        "receiver": 1,
+        "date_sent": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+      "model": "crm_api.teamschat",
+        "pk": 1,
+        "fields": {
+          "name": "Team1",
+            "members": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.teamschat",
+        "pk": 2,
+        "fields": {
+          "name": "Team2",
+            "members": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.teamschat",
+        "pk": 3,
+        "fields": {
+          "name": "Team3",
+            "members": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 1,
+        "fields": {
+          "message": "Hello",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 1
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 2,
+        "fields": {
+          "message": "Hi",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 1
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 3,
+        "fields": {
+          "message": "Hello",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 2
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 4,
+        "fields": {
+          "message": "Hi",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 2
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 5,
+        "fields": {
+          "message": "Hello",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 3
+        }
+    },
+    {
+      "model": "crm_api.teamschatmessage",
+        "pk": 6,
+        "fields": {
+          "message": "Hi",
+          "date_sent": "2021-07-01T00:00:00Z",
+          "teams_chat": 3
+        }
+    },
+    {
+      "model": "crm_api.teamsdirectmessage",
+        "pk": 1,
+        "fields": {
+          "message": "Hello",
+            "sender": "mailtest1@mail.com",
+            "receiver": 1,
+            "date_sent": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+      "model": "crm_api.teamsdirectmessage",
+        "pk": 2,
+        "fields": {
+          "message": "Hi",
+            "sender": "mailtest2@mail.com",
+            "receiver": 1,
+            "date_sent": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+      "model": "crm_api.teamsdirectmessage",
+        "pk": 3,
+        "fields": {
+          "message": "Hello",
+            "sender": "mailtest3@mail.com",
+            "receiver": 2,
+            "date_sent": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+      "model": "crm_api.meeting",
+        "pk": 1,
+        "fields": {
+          "date": "2021-07-01",
+            "place": "Office",
+            "description": "Meeting with customers",
+            "participants": [1, 2],
+            "customers": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.meeting",
+        "pk": 2,
+        "fields": {
+          "date": "2021-07-01",
+            "place": "Office",
+            "description": "Meeting with customers",
+            "participants": [1, 2],
+            "customers": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.meeting",
+        "pk": 3,
+        "fields": {
+          "date": "2025-07-01",
+            "place": "Office",
+            "description": "Meeting with customers",
+            "participants": [1, 2],
+            "customers": [1, 2]
+        }
+    },
+    {
+      "model": "crm_api.customer",
+        "pk": 1,
+        "fields": {
+          "name": "Customer1",
+            "email": "mailtest22@mail.com",
+            "phone": "1234567890",
+            "address": "Address1"
+        }
+    },
+    {
+      "model": "crm_api.customer",
+        "pk": 2,
+        "fields": {
+          "name": "Customer2",
+            "email": "mailtest33@mail.com",
+            "phone": "1234567890",
+            "address": "Address2"
+        }
+    },
+    {
+      "model": "crm_api.partnercompany",
+        "pk": 1,
+        "fields": {
+          "name": "Company1",
+            "email": "mail1@partner1.com",
+            "phone": "1234567890",
+            "address": "Address1"
+        }
+    },
+    {
+      "model": "crm_api.partnercompany",
+        "pk": 2,
+        "fields": {
+          "name": "Company2",
+            "email": "mail2@partner2.com",
+            "phone": "1234567890",
+            "address": "Address2"
+        }
+    },
+    {
+      "model": "crm_api.task",
+      "pk": 1,
+      "fields": {
+          "title": "Research",
+          "estimated_time": 60,
+          "spent_time": 30,
+          "priority": "Low",
+          "status": "To Do",
+          "assigned_to": 1
+      }
+  },
+  {
+      "model": "crm_api.task",
+      "pk": 2,
+      "fields": {
+          "title": "Mind Map",
+          "estimated_time": 120,
+          "spent_time": 60,
+          "priority": "Medium",
+          "status": "In Progress",
+          "assigned_to": 2
+      }
+  },
+  {
+      "model": "crm_api.task",
+      "pk": 3,
+      "fields": {
+          "title": "UX Sketch",
+          "estimated_time": 180,
+          "spent_time": 90,
+          "priority": "High",
+          "status": "In Review",
+          "assigned_to": 3
+      }
+  },
+  {
+    "model": "crm_api.task",
+    "pk": 4,
+    "fields": {
+        "title": "Design Review",
+        "estimated_time": 200,
+        "spent_time": 100,
+        "priority": "Medium",
+        "status": "Done",
+        "assigned_to": 2
+    }
+},
+{
+    "model": "crm_api.task",
+    "pk": 5,
+    "fields": {
+        "title": "Code Refactoring",
+        "estimated_time": 300,
+        "spent_time": 150,
+        "priority": "High",
+        "status": "In Progress",
+        "assigned_to": 1
+    }
+},
+{
+    "model": "crm_api.task",
+    "pk": 6,
+    "fields": {
+        "title": "Testing",
+        "estimated_time": 180,
+        "spent_time": 90,
+        "priority": "Low",
+        "status": "To Do",
+        "assigned_to": 2
+    }
+},
+{
+    "model": "crm_api.task",
+    "pk": 7,
+    "fields": {
+        "title": "Deployment",
+        "estimated_time": 120,
+        "spent_time": 60,
+        "priority": "High",
+        "status": "In Review",
+        "assigned_to": 3
+    }
+},
+{
+    "model": "crm_api.task",
+    "pk": 8,
+    "fields": {
+        "title": "Documentation",
+        "estimated_time": 240,
+        "spent_time": 120,
+        "priority": "Medium",
+        "status": "Done",
+        "assigned_to": 2
+    }
+},
+{
+  "model": "crm_api.project",
+  "pk": 1,
+  "fields": {
+      "name": "Painéis Fotovoltaicos",
+      "creator": "Natália Fernandes",
+      "creatorId": 4,
+      "state": "Em Desenvolvimento",
+      "deadline": "2025-03-12",
+      "start_date": "2024-03-12",
+      "priority": "Alto",
+      "assigned_to": [1,2,3,4,5,6,7,8],
+      "tasks": [1,2]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 2,
+  "fields": {
+      "name": "Posto de Carregamento Elétrico",
+      "creator": "José Esteves",
+      "creatorId": 5,
+      "state": "Pronto",
+      "deadline": "2024-05-05",
+      "start_date": "2024-03-12",
+
+      "priority": "Baixo",
+      "assigned_to": [1,4,5,6,7,8],
+      "tasks": [3,4]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 3,
+  "fields": {
+      "name": "Posto de abastecimento",
+      "creator": "Miguel Empata",
+      "creatorId": 6,
+      "state": "Parado",
+      "deadline": "2024-07-14",
+      "start_date": "2024-03-12",
+      "priority": "Médio",
+      "assigned_to": [1,2,3],
+      "tasks": [5,6]
+
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 4,
+  "fields": {
+      "name": "Campo de Futebol",
+      "creator": "Miguel Relvas",
+      "creatorId": 7,
+      "state": "Em Desenvolvimento",
+      "start_date": "2024-03-12",
+      "deadline": "2024-06-20",
+      "priority": "Baixo",
+      "assigned_to": [1,2,3,4,7,8],
+      "tasks": [7,8]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 5,
+  "fields": {
+      "name": "Combustíveis",
+      "creator": "Teresa Baldaque",
+      "creatorId": 8,
+      "state": "Em Desenvolvimento",
+      "deadline": "2025-03-12",
+      "start_date": "2024-03-12",
+      "priority": "Alto",
+      "assigned_to": [1,2,3,4,5,7,8]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 6,
+  "fields": {
+      "name": "Reciclagem de Óleo",
+      "creator": "Teresa Baldaque",
+      "creatorId": 8,
+      "state": "Em Desenvolvimento",
+      "deadline": "2025-03-12",
+      "start_date": "2024-03-12",
+      "priority": "Alto",
+      "assigned_to": [1,2,3,4,5]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 7,
+  "fields": {
+      "name": "Vaivem Espacial",
+      "creator": "José Esteves",
+      "creatorId": 5,
+      "state": "Em Desenvolvimento",
+      "deadline": "2025-03-12",
+      "start_date": "2024-03-12",
+      "priority": "Alto",
+      "assigned_to": [1,2,6,7,8]
+  }
+},
+{
+  "model": "crm_api.project",
+  "pk": 8,
+  "fields": {
+      "name": "Abastecimento por Drones",
+      "creator": "Miguel Relvas",
+      "creatorId": 7,
+      "state": "Em Desenvolvimento",
+      "deadline": "2025-03-12",
+      "start_date": "2024-03-12",
+      "priority": "Alto",
+      "assigned_to": [1,2,3,4,6,7,8]
+  }
+}
+]

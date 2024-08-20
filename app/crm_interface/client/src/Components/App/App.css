@@ -1,0 +1,12 @@
+#page-content-wrapper {
+	flex: 1;
+}
+.col-1-75 {
+	flex: 0 0 calc((1.75 / 12) * 100%);
+	max-width: calc((1.75 / 12) * 100%);
+}
+.col-auto {
+	flex: 0 0 auto;
+	max-width: none;
+	min-height: 100vh;
+}
